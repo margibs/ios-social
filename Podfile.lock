@@ -1,4 +1,14 @@
 PODS:
+  - Bolts (1.8.4):
+    - Bolts/AppLinks (= 1.8.4)
+    - Bolts/Tasks (= 1.8.4)
+  - Bolts/AppLinks (1.8.4):
+    - Bolts/Tasks
+  - Bolts/Tasks (1.8.4)
+  - FBSDKCoreKit (4.15.1):
+    - Bolts (~> 1.7)
+  - FBSDKLoginKit (4.15.1):
+    - FBSDKCoreKit
   - Firebase/Analytics (3.5.2):
     - FirebaseAnalytics (~> 3.3)
   - Firebase/Auth (3.5.2):
@@ -40,12 +50,16 @@ PODS:
     - GoogleSymbolUtilities (~> 1.0)
 
 DEPENDENCIES:
+  - FBSDKLoginKit
   - Firebase/Auth
   - Firebase/Core
   - Firebase/Database
   - Firebase/Storage
 
 SPEC CHECKSUMS:
+  Bolts: 5b9c5b488889a0ee2685abbbbe9430639b6d55c7
+  FBSDKCoreKit: 6eb351b0c47ebdf832abeee40ea18b468ea3fb42
+  FBSDKLoginKit: 2bad72385b237c76ea9a296cf2261a644b3fc22c
   Firebase: d91b03270d9b5eea782680d62ed6d0c588b9eeba
   FirebaseAnalytics: 5cae6cf5e9275edea49f61e0d8ed7f469fb95f5b
   FirebaseAuth: ac93f234f63724f07180258c005f4e22f46ae83b
@@ -58,6 +72,6 @@ SPEC CHECKSUMS:
   GoogleSymbolUtilities: e972e6ff61e7b3d91be8b26e5defa4b141917b4f
   GoogleUtilities: ee4807b7d6d3b120bfcf2144464e515df69c3c19
 
-PODFILE CHECKSUM: 0a79a4929df2b51c15e70b26df58acc03d92cbf7
+PODFILE CHECKSUM: 0a082ac9b42077c333731a035e289e7cda765d92
 
 COCOAPODS: 1.1.0.rc.2
