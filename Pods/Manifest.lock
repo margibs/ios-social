@@ -48,6 +48,7 @@ PODS:
   - GoogleSymbolUtilities (1.1.1)
   - GoogleUtilities (1.3.1):
     - GoogleSymbolUtilities (~> 1.0)
+  - SwiftKeychainWrapper (2.2.0)
 
 DEPENDENCIES:
   - FBSDKLoginKit
@@ -55,6 +56,17 @@ DEPENDENCIES:
   - Firebase/Core
   - Firebase/Database
   - Firebase/Storage
+  - SwiftKeychainWrapper (from `https://github.com/jrendel/SwiftKeychainWrapper.git`, branch `master`)
+
+EXTERNAL SOURCES:
+  SwiftKeychainWrapper:
+    :branch: master
+    :git: https://github.com/jrendel/SwiftKeychainWrapper.git
+
+CHECKOUT OPTIONS:
+  SwiftKeychainWrapper:
+    :commit: 830efaf7fba5b05670a91f828ab1b21f8c8a3e56
+    :git: https://github.com/jrendel/SwiftKeychainWrapper.git
 
 SPEC CHECKSUMS:
   Bolts: 5b9c5b488889a0ee2685abbbbe9430639b6d55c7
@@ -71,7 +83,8 @@ SPEC CHECKSUMS:
   GoogleParsingUtilities: 552b4339e30d2e48e00d148236fa1e2668dddb32
   GoogleSymbolUtilities: e972e6ff61e7b3d91be8b26e5defa4b141917b4f
   GoogleUtilities: ee4807b7d6d3b120bfcf2144464e515df69c3c19
+  SwiftKeychainWrapper: a61d8ec21f07ba70e393f8572b2d46a25effc7b3
 
-PODFILE CHECKSUM: 0a082ac9b42077c333731a035e289e7cda765d92
+PODFILE CHECKSUM: 1bece877bdbcf7f1185b562b76cca9399aeae12d
 
 COCOAPODS: 1.1.0.rc.2
